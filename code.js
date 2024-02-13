@@ -1,8 +1,5 @@
 function sum(a) {
     let sum = 0; // For cases when the array is zero or undefined, it can't read the first value, so we'll assume it's 0 to begin with.
-    if(a.length == 0){
-        return 0;
-    }
     for(let i = 0; i < a.length; i++) {
         sum += a[i];
     }
